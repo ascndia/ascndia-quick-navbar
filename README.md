@@ -2,6 +2,7 @@
 
 The AscndiaNavbar component is a reusable React component designed to create a quick and customizable navigation bar with dropdown menu functionality. It allows you to easily build and integrate a responsive navigation bar into your React application.
 
+
 ## Installation
 
 You can install the AscndiaNavbar component via npm or yarn:
@@ -12,6 +13,7 @@ git clone https://github.com/yourusername/ascndia-navbar.git
 Replace yourusername with your GitHub username.
 
 Please note that this component is implemented in TypeScript, so you will need to manually install all other required dependencies, including Tailwind CSS, React, and TypeScript.
+
 
 ## Usage
 
@@ -58,6 +60,7 @@ function MyNavbar() {
 export default MyNavbar;
 ```
 Please make sure to include `hamburger.css` in your application.
+
 
 ## Props
 
