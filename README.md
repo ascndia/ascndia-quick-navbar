@@ -57,3 +57,29 @@ function MyNavbar() {
 export default MyNavbar;
 ```
 Please make sure to include `hamburger.css` in your application.
+
+## Props
+
+`styles` (optional): An object that allows you to customize the styling of various elements within the navigation bar. You can specify CSS classes for the navigation bar (nav), title (title), dropdown container (dropdown), list items (li), and the hamburger icon (hamburger).
+
+`title` (required): The title to be displayed in the navigation bar.
+
+`dropdownData` (optional): An array of objects that define the items in the dropdown menu. To populate this array correctly, ensure that each object adheres to the interface is provided, including a `title` (string or function returning a string). Depending on the `type` property, you should either include an `onClick` function for buttons or an `href` for links.
+
+`dropdownDataButtonInterface`
+```bash
+interface dropdownDataButtonInterface {
+    title: (() => string) | string; 
+    onClick : () => void;
+    type:'button';
+}
+```
+
+`dropdownDataNavigateInterface`
+```bash
+interface dropdownDataNavigateInterface {
+    title: (() => string) | string; 
+    href: string;
+    type:'link';
+}
+```
