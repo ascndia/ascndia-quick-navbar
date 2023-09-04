@@ -6,8 +6,8 @@ The AscndiaNavbar component is a reusable React component designed to create a q
 ## Installation
 
 To install the AscndiaNavbar component, you can follow these steps:
-1. Clone this repository to your local machine.
-2. Include the component in your application.
+1.  Clone this repository to your local machine.
+2.  Include the component in your application.
 
 ```bash
 git clone https://github.com/yourusername/ascndia-navbar.git
