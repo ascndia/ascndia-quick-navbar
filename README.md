@@ -8,3 +8,6 @@ You can install the AscndiaNavbar component via npm or yarn:
 
 ```bash
 npm install ascndia-navbar
+```
+
+Please note that this component is implemented in TypeScript, so you will need to manually install all other required dependencies, including Tailwind CSS, React, and TypeScript.
