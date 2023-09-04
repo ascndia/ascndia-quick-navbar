@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 
-export interface RuruwNavbarProps {
+export interface AscndiaNavbarProps {
     styles?: {
         nav:string;
         title:string;
@@ -24,7 +24,7 @@ interface dropdownDataNavigateInterface {
     type:'link';
 }
 
-function RuruwNavbar(props: RuruwNavbarProps) {
+function AscndiaNavbar(props: AscndiaNavbarProps) {
 
     const { styles, title, dropdownData } = props;
     const [navActive,setNavActive] = useState(false);
@@ -81,4 +81,4 @@ function RuruwNavbar(props: RuruwNavbarProps) {
     )
 }
 
-export default RuruwNavbar
+export default AscndiaNavbar
