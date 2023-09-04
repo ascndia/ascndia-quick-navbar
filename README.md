@@ -23,6 +23,7 @@ import AscndiaNavbar from 'ascndia-navbar';
 
 function MyNavbar() {
   const navbarStyles = {
+    // write your styles here
     nav: 'bg-secondary_bg dark:bg-secondary_bg_dark fixed',
     title: 'font-semibold tracking-wide text-xl',
     dropdown: 'dark:bg-secondary_bg_dark bg-secondary_bg',
