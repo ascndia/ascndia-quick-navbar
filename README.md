@@ -64,7 +64,7 @@ Please make sure to include `hamburger.css` in your application.
 
 `title` (required): The title to be displayed in the navigation bar.
 
-`dropdownData` (optional): An array of objects that define the items in the dropdown menu. To populate this array correctly, ensure that each object adheres to the interface is provided, including a `title` (string or function returning a string). Depending on the `type` property, you should either include an `onClick` function for buttons or an `href` for links.
+`dropdownData` (optional): An array of objects that define the items in the dropdown menu. To populate this array correctly, ensure that each object adheres to the interface that have been defined, including a `title` (string or function returning a string). Depending on the `type` property, you should either include an `onClick` function for buttons or an `href` for links.
 
 ### Button Interface
 ```bash
