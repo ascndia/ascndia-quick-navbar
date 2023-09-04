@@ -17,7 +17,7 @@ Please note that this component is implemented in TypeScript, so you will need t
 
 To use the AscndiaNavbar component, you need to import it into your React application and provide the necessary props. Here's a basic example of how to use it:
 
-```bash
+```typescript
 import React from 'react';
 import AscndiaNavbar from 'ascndia-navbar';
 
