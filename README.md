@@ -10,7 +10,7 @@ To install the AscndiaNavbar component, you can follow these steps:
 2.  Include the component in your application.
 
 ```bash
-git clone https://github.com/yourusername/ascndia-navbar.git
+git clone https://github.com/yourusername/ascndia-quick-navbar.git
 ```
 Replace yourusername with your GitHub username.
 
