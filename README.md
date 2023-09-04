@@ -56,3 +56,4 @@ function MyNavbar() {
 
 export default MyNavbar;
 ```
+Please make sure to include `hamburger.css` in your application.
