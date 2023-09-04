@@ -23,7 +23,7 @@ To use the AscndiaNavbar component, you need to import it into your React applic
 
 ```typescript
 import React from 'react';
-import AscndiaNavbar from 'ascndia-navbar';
+import AscndiaNavbar from './path/to/AscndiaNavbar';
 
 function MyNavbar() {
   const navbarStyles = {
