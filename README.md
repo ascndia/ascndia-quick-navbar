@@ -1,6 +1,6 @@
 # AscndiaNavbar Component
 
-The AscndiaNavbar component is a reusable React component designed to create a customizable navigation bar with dropdown menu functionality. It allows you to easily integrate a responsive navigation bar into your React application.
+The AscndiaNavbar component is a reusable React component designed to create a quick and customizable navigation bar with dropdown menu functionality. It allows you to easily build and integrate a responsive navigation bar into your React application.
 
 ## Installation
 
@@ -23,11 +23,11 @@ import AscndiaNavbar from 'ascndia-navbar';
 
 function MyNavbar() {
   const navbarStyles = {
-    nav: 'your-nav-styles',
-    title: 'your-title-styles',
-    dropdown: 'your-dropdown-styles',
-    li: 'your-li-styles',
-    hamburger: 'your-hamburger-styles',
+    nav: 'bg-secondary_bg dark:bg-secondary_bg_dark fixed',
+    title: 'font-semibold tracking-wide text-xl',
+    dropdown: 'dark:bg-secondary_bg_dark bg-secondary_bg',
+    li: 'text-base text-white dark:text-white',
+    hamburger: 'bg-white',
   };
 
   const dropdownData = [
